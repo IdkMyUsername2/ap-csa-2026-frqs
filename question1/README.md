@@ -4,7 +4,7 @@ __For this FRQ you were given an `Account` class which represents represent user
 
 ## Part A 
 
-__In Part A Collegebored wanted you to create the constructor for the `Account` Class which takes in a String parameter `requestedName`. In this question you would use the helper method `isAvailable` to help you determine if the parameter is available for use.__
+__In Part A Collegeboard wanted you to create the constructor for the `Account` Class which takes in a String parameter `requestedName`. In this question you would use the helper method `isAvailable` to help you determine if the parameter is available for use.__
 
 __If `requestedName` is an available username, the `Account` constructor will assign `requestedName` to the instance variable `username`. If the username isn't available the constructor will try different variations of `requestedName` until an available username is found and assigned to the instance variable `username`.__
 
@@ -13,3 +13,5 @@ __If `requestedName` is an available username, the `Account` constructor will as
 * If `requestedName` is "PSmith" and this username is available, then "PSmith" is assigned to `username`.
   
 ## Part B 
+
+__In part B CollegeBoard__
