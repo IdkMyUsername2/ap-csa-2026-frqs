@@ -1,6 +1,6 @@
 public String getShortenedName(){
 	String temp = username; 
-	while(temp.indexOf("-")){
+	while(temp.indexOf("-") != -1){
 		int num = temp.indexOf("-");
 		temp = temp.substring(0, num-1) + tmep.substring(num+1);
 	}
