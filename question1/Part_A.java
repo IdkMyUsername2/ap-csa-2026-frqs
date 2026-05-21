@@ -2,7 +2,7 @@ public Account(String requestedName){
 	username = requestedName;
 	int i = 1;
   while(!isAvailable(username)){
-    username += i;
+    username = requestedName + i;
     i ++;
   }
 }
