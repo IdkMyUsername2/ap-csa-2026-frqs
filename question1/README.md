@@ -14,4 +14,9 @@ __If `requestedName` is an available username, the `Account` constructor will as
   
 ## Part B 
 
-__In part B CollegeBoard__
+__In part B CollegeBoard wants you to write a methods `getShortenedName` where you removes every hyphen "-" and the character before it.__
+For Example:
+For example, if username is "Amy-Marie-Lin", getShortenedName should return
+"AmMariLin".
+As another example, if username is "SammyB3", getShortenedName should return
+"SammyB3".
